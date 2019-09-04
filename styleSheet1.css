@@ -1,0 +1,87 @@
+h1 {
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: solid;
+    border-color: black;
+    margin-bottom: 5%;
+
+}
+
+.LogInButton {
+    text-align: center;
+}
+
+.usernameAndPassword {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.ItemList {
+    margin-left: 35%;
+    margin-bottom: 1%;
+    text-align: center;
+    box-sizing: border-box;
+    width: 30%;
+    border: solid black 1px;
+    padding: 5px;
+    
+
+}
+.BuyButton {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.AddProductButton {
+    text-align: right;
+    margin-right: 20%;
+}
+
+.addProduct {
+    text-align: center;
+}
+
+.Registration {
+
+margin-bottom: 5%;
+
+
+
+}
+.Description {
+    text-align: left;
+
+}
+.addPicture {
+
+}
+
+.registration {
+display: none;
+
+}
+.productPage {
+    display: none;
+}
+.itemListPage {
+    display: none;
+}
+
+i.material-icons {
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+.previousButton {
+    padding-top:2%;
+    padding-right:4%;
+    border-color: #ff282a;
+    width: 5px;
+
+    align-content: center;
+}
+
+.Item {
+    text-align: center;
+}
