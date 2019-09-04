@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styleSheet1.css">
+
+
+
+    <script type="text/javascript" src="Script.js"></script>
+
+  </head>
+  <body>
+
+  <h1>  Web Store </h1>
+<button id="previousButton" class="previousButton" onclick="backButton()" >Back</button>
+  <button id="logOutButton" class="previousButton" onclick="logOutButton()" >Log Out</button>
+  <div class="logInPage" id="logInPage">
+
+  <div class="usernameAndPassword" id="usernameAndPassword">
+    <form>
+      Username:<br>
+      <input type="text" name="username" id="username"><br>
+      Password:<br>
+      <input type="password" name="psw" id="password">
+
+    </form>
+
+    <p id="logInInfo" onclick="getInfo()"></p>
+
+  </div>
+
+  <div class="LogInButton">
+    <button type="button" onclick="getInfo()" id="logIn">Log In</button>
+    <button type="button" onclick="registration()" >Register</button>
+
+
+  </div>
+  </div>
+
+
+
+  <div id="registration" class="registration">
+    <div class="Registration">
+      <h1>Registration</h1>
+
+      <div class="Description" >Username:</div> <input type="text" id="usernameToAdd"><br>
+
+      <div class="Description" >Password :</div><input type="text" id="passwordToAdd"><br>
+
+      <p id="existingUser"></p>
+
+
+
+    </div>
+
+    <button type="button" id="register" onclick="registerUser()" >Register</button>
+  </div>
+
+
+
+<div class="itemListPage" id="itemListPage">
+  <div class="Item" id="Item">
+    <h1>  For Sale </h1>
+
+    <ul id="newItem"></ul>
+
+    <div id="addItem" class="addItem material-icons"></div>
+
+
+
+    <div class="ItemList">
+      Products for sale listed below:
+    </div>
+
+  </div>
+    <div class="AddProductButton">
+      <button type="button" onclick="newProduct()" >add</button>
+    </div>
+</div>
+
+
+<div id="productPage" class="productPage">
+  <h1> Add a Product</h1>
+
+  <div class="addProduct">
+    <div class="Description" >Product Name:</div> <input type="text" id="productName"><br>
+
+    <div class="Description" >Description :</div><input type="text" id="description" ><br>
+
+    <div class="Description" >Value       :</div><input type="number"  id="number"><br>
+    <button type="button" onclick="addItem()">Submit product</button>
+  </div>
+
+  <div class="addPicture">
+    <form action="">
+      <input type="file" name="pic" accept="image/*" >
+
+    </form>
+  </div>
+</div>
+
+
+
+
+  </body>
+</html>
