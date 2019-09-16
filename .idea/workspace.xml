@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfaad045-8c77-49a5-985b-cac26dd38884" name="Default Changelist" comment="" />
+    <list default="true" id="bfaad045-8c77-49a5-985b-cac26dd38884" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Online-Store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Online-Store.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +17,13 @@
   </component>
   <component name="ProjectId" id="1Qqfkfu8V3qj5xIw9aZ1rHGQzmC" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -41,7 +49,9 @@
       <option name="presentableId" value="Default" />
       <updated>1568503191402</updated>
       <workItem from="1568503193774" duration="297000" />
-      <workItem from="1568536000219" duration="964000" />
+      <workItem from="1568536000219" duration="2090000" />
+      <workItem from="1568550436878" duration="2418000" />
+      <workItem from="1568621501941" duration="642000" />
     </task>
     <servers />
   </component>
